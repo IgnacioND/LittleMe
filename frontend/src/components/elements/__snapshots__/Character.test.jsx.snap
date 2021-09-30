@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Character Component When it is rendered Then screen should match the snapshot 1`] = `
+<View>
+  <Text>
+    money: undefined
+  </Text>
+  <Text>
+    hunger: undefined
+  </Text>
+  <Text>
+    hygiene: undefined
+  </Text>
+  <Text>
+    mind: undefined
+  </Text>
+  <Text>
+    health: undefined
+  </Text>
+  <Text>
+    studies: undefined
+  </Text>
+  <Text>
+    leisure: undefined
+  </Text>
+  <Image
+    onPress={[Function]}
+    source={1}
+    style={
+      Object {
+        "height": 250,
+        "width": 340,
+      }
+    }
+  />
+</View>
+`;

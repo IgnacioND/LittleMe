@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Task Component When it is rendered Then screen should match the snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "borderColor": "black",
+      "borderWidth": 2,
+      "flexDirection": "row",
+      "height": 45,
+      "justifyContent": "space-between",
+      "margin": 5,
+      "padding": 10,
+      "width": 300,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "borderColor": "black",
+        "borderWidth": 2,
+        "height": 30,
+        "opacity": 1,
+        "width": 30,
+      }
+    }
+  />
+  <Text
+    onPress={[Function]}
+    style={
+      Object {
+        "fontWeight": "bold",
+        "width": 150,
+      }
+    }
+  />
+  <Image
+    style={
+      Object {
+        "height": 30,
+        "width": 30,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Image
+      source={1}
+    />
+  </View>
+</View>
+`;

@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Login Component When it is rendered Then screen should match the snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFCA51",
+      "flex": 1,
+      "justifyContent": "space-around",
+      "paddingBottom": 30,
+      "paddingTop": 100,
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "margin": 80,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 400,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Username"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "black",
+          "borderWidth": 2,
+          "height": 45,
+          "margin": 10,
+          "padding": 10,
+          "width": 300,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <Text
+      testID="warningText"
+    >
+      
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Login"
+      rejectResponderTermination={true}
+      secureTextEntry={true}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "black",
+          "borderWidth": 2,
+          "height": 45,
+          "margin": 10,
+          "padding": 10,
+          "width": 300,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "margin": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "darkgrey",
+            "borderColor": "black",
+            "borderWidth": 2,
+            "height": 30,
+            "marginLeft": 3,
+            "marginTop": 3,
+            "width": 90,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFCA51",
+            "borderColor": "black",
+            "borderWidth": 2,
+            "height": 30,
+            "justifyContent": "center",
+            "opacity": 1,
+            "position": "absolute",
+            "width": 90,
+          }
+        }
+        testID="loginButton"
+      >
+        <Text
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          ENTER
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "margin": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "darkgrey",
+            "borderColor": "black",
+            "borderWidth": 2,
+            "height": 30,
+            "marginLeft": 3,
+            "marginTop": 3,
+            "width": 90,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFCA51",
+            "borderColor": "black",
+            "borderWidth": 2,
+            "height": 30,
+            "justifyContent": "center",
+            "opacity": 1,
+            "position": "absolute",
+            "width": 90,
+          }
+        }
+        testID="backButton"
+      >
+        <Text
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          BACK
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

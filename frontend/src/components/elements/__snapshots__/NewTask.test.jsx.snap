@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a NewTask Component When it is rendered Then screen should match the snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "darkgrey",
+          "borderColor": "black",
+          "borderWidth": 2,
+          "height": 40,
+          "marginLeft": 3,
+          "marginTop": 3,
+          "width": 40,
+        }
+      }
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFCA51",
+          "borderColor": "black",
+          "borderWidth": 2,
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "position": "absolute",
+          "width": 40,
+        }
+      }
+      testID="addTaskHandler"
+    >
+      <Image
+        source={1}
+      />
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "darkgrey",
+          "borderColor": "black",
+          "borderWidth": 2,
+          "height": 40,
+          "marginLeft": 3,
+          "marginTop": 3,
+          "width": 40,
+        }
+      }
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFCA51",
+          "borderColor": "black",
+          "borderWidth": 2,
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "position": "absolute",
+          "width": 40,
+        }
+      }
+      testID="listHandler"
+    >
+      <Image
+        source={1}
+      />
+    </View>
+  </View>
+</View>
+`;

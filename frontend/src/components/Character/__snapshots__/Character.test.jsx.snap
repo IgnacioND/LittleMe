@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Character Component When it is rendered Then screen should match the snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      resizeMode="cover"
+      source={1}
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": undefined,
+            "width": undefined,
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#2d1b42",
+          "flexDirection": "row",
+          "height": 100,
+          "justifyContent": "space-around",
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "marginTop": 70,
+          }
+        }
+      >
+        16/09/2021
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "marginTop": 70,
+          }
+        }
+      >
+        Home
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "marginTop": 70,
+          }
+        }
+      >
+        NEXT: MEETING
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 20,
+        }
+      }
+    >
+       Character
+    </Text>
+  </View>
+</View>
+`;

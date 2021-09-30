@@ -1,0 +1,4 @@
+export const MONEY_INCREMENT = 10;
+export const STANDARD_INCREMENT = 1;
+export const MONEYPLUS_INCREMENT = MONEY_INCREMENT * 2;
+export const NULL_INCREMENT = 0;
